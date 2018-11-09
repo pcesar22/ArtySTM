@@ -48,17 +48,13 @@ U 5BDF960B
 F0 "STM32F4" 50
 F1 "STMS1.sch" 50
 $EndSheet
-Text Notes 2400 5750 0    157  ~ 31
+Text Notes 2350 5700 0    157  ~ 31
 Power Supply\n
 $Sheet
-S 2300 6150 2200 500 
+S 2250 6100 2200 500 
 U 5BDFB0A3
 F0 "Power Supply" 50
 F1 "Power.sch" 50
-F2 "5V" I L 2300 6400 50 
-F3 "3V3" O R 4500 6250 50 
-F4 "1V8" O R 4500 6400 50 
-F5 "1V0" O R 4500 6550 50 
 $EndSheet
 $Bitmap
 Pos 11950 7000
@@ -8247,102 +8243,6 @@ D0 C0 40 A1 50 28 94 38 68 60 A0 50 28 14 4A 1C 34 30 50 28 14 0A 25 8E FF 07 53
 ED 2B 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Wire Wire Line
-	4950 6250 4950 6050
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5C010069
-P 4950 6050
-AR Path="/5BDFB0A3/5C010069" Ref="#PWR?"  Part="1" 
-AR Path="/5C010069" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4950 5900 50  0001 C CNN
-F 1 "+3V3" H 4965 6223 50  0000 C CNN
-F 2 "" H 4950 6050 50  0001 C CNN
-F 3 "" H 4950 6050 50  0001 C CNN
-	1    4950 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+1V0 #PWR?
-U 1 1 5C01006F
-P 5450 6050
-AR Path="/5BDFB0A3/5C01006F" Ref="#PWR?"  Part="1" 
-AR Path="/5C01006F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5450 5900 50  0001 C CNN
-F 1 "+1V0" H 5465 6223 50  0000 C CNN
-F 2 "" H 5450 6050 50  0001 C CNN
-F 3 "" H 5450 6050 50  0001 C CNN
-	1    5450 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+1V8 #PWR?
-U 1 1 5C010075
-P 5200 6050
-AR Path="/5BDFB0A3/5C010075" Ref="#PWR?"  Part="1" 
-AR Path="/5C010075" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5200 5900 50  0001 C CNN
-F 1 "+1V8" H 5215 6223 50  0000 C CNN
-F 2 "" H 5200 6050 50  0001 C CNN
-F 3 "" H 5200 6050 50  0001 C CNN
-	1    5200 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 6250 4950 6250
-Wire Wire Line
-	5200 6050 5200 6400
-Wire Wire Line
-	5200 6400 4500 6400
-Wire Wire Line
-	5450 6050 5450 6550
-Wire Wire Line
-	5450 6550 4500 6550
-$Comp
-L Connector:USB_B_Micro J?
-U 1 1 5C014530
-P 1350 6600
-AR Path="/5BDFB0A3/5C014530" Ref="J?"  Part="1" 
-AR Path="/5C014530" Ref="J?"  Part="1" 
-F 0 "J?" H 1405 7067 50  0000 C CNN
-F 1 "USB_B_Micro" H 1405 6976 50  0000 C CNN
-F 2 "" H 1500 6550 50  0001 C CNN
-F 3 "~" H 1500 6550 50  0001 C CNN
-	1    1350 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C014537
-P 1250 7150
-AR Path="/5BDFB0A3/5C014537" Ref="#PWR?"  Part="1" 
-AR Path="/5C014537" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1250 6900 50  0001 C CNN
-F 1 "GND" H 1255 6977 50  0000 C CNN
-F 2 "" H 1250 7150 50  0001 C CNN
-F 3 "" H 1250 7150 50  0001 C CNN
-	1    1250 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 7000 1250 7100
-Wire Wire Line
-	1350 7000 1350 7100
-Wire Wire Line
-	1350 7100 1250 7100
-Connection ~ 1250 7100
-Wire Wire Line
-	1250 7100 1250 7150
-Wire Wire Line
-	1650 6400 2300 6400
-Wire Wire Line
-	1650 6600 1800 6600
-Wire Wire Line
-	1650 6700 1800 6700
-Text GLabel 1800 6600 2    50   Output ~ 10
-D+
-Text GLabel 1800 6700 2    50   Output ~ 10
-D-
 Text Notes 13600 4300 0    50   ~ 10
 BUS0\n
 Text Notes 14400 4950 1    39   ~ 8
