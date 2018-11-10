@@ -784,7 +784,7 @@ P 8250 5450
 F 0 "U4" H 8577 5596 50  0000 L CNN
 F 1 "MT25QU128" H 8577 5505 50  0000 L CNN
 F 2 "KicadFPGA:DFN-8-1EP_6x5mm_P1.27mm_EP3x3mm" H 8150 5450 50  0001 C CNN
-F 3 "" H 8150 5450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/micron-technology-inc/MT25QU128ABA1EW7-0SIT/557-1795-ND/6595530" H 8150 5450 50  0001 C CNN
 	1    8250 5450
 	1    0    0    -1  
 $EndComp

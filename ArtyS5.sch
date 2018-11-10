@@ -98,8 +98,8 @@ L Connector:TestPoint TP5
 U 1 1 5C5F8EF8
 P 4650 4400
 F 0 "TP5" V 4500 4500 50  0000 R CNN
-F 1 "TestPoint" V 4592 4518 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 4400 50  0001 C CNN
+F 1 "tFPGA_DONE" V 4592 4518 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 4400 50  0001 C CNN
 F 3 "~" H 4850 4400 50  0001 C CNN
 	1    4650 4400
 	0    -1   -1   0   
@@ -109,8 +109,8 @@ L Connector:TestPoint TP4
 U 1 1 5C5FA275
 P 4650 3800
 F 0 "TP4" V 4500 3900 50  0000 R CNN
-F 1 "TestPoint" V 4592 3918 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 3800 50  0001 C CNN
+F 1 "t1V0" V 4592 3918 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 3800 50  0001 C CNN
 F 3 "~" H 4850 3800 50  0001 C CNN
 	1    4650 3800
 	0    -1   -1   0   
@@ -120,8 +120,8 @@ L Connector:TestPoint TP3
 U 1 1 5C5FA29B
 P 4650 3350
 F 0 "TP3" V 4500 3450 50  0000 R CNN
-F 1 "TestPoint" V 4592 3468 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 3350 50  0001 C CNN
+F 1 "t1V8" V 4592 3468 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 3350 50  0001 C CNN
 F 3 "~" H 4850 3350 50  0001 C CNN
 	1    4650 3350
 	0    -1   -1   0   
@@ -131,8 +131,8 @@ L Connector:TestPoint TP2
 U 1 1 5C5FA2B9
 P 4650 2950
 F 0 "TP2" V 4500 3050 50  0000 R CNN
-F 1 "TestPoint" V 4592 3068 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 2950 50  0001 C CNN
+F 1 "t3V3" V 4592 3068 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 2950 50  0001 C CNN
 F 3 "~" H 4850 2950 50  0001 C CNN
 	1    4650 2950
 	0    -1   -1   0   
@@ -142,8 +142,8 @@ L Connector:TestPoint TP9
 U 1 1 5C5FA682
 P 4650 5600
 F 0 "TP9" V 4500 5700 50  0000 R CNN
-F 1 "TestPoint" V 4592 5718 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 5600 50  0001 C CNN
+F 1 "tFPGA_M0" V 4592 5718 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 5600 50  0001 C CNN
 F 3 "~" H 4850 5600 50  0001 C CNN
 	1    4650 5600
 	0    -1   -1   0   
@@ -153,8 +153,8 @@ L Connector:TestPoint TP8
 U 1 1 5C5FA689
 P 4650 5300
 F 0 "TP8" V 4500 5400 50  0000 R CNN
-F 1 "TestPoint" V 4592 5418 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 5300 50  0001 C CNN
+F 1 "tFPGA_CCLK" V 4592 5418 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 5300 50  0001 C CNN
 F 3 "~" H 4850 5300 50  0001 C CNN
 	1    4650 5300
 	0    -1   -1   0   
@@ -164,8 +164,8 @@ L Connector:TestPoint TP7
 U 1 1 5C5FA690
 P 4650 5000
 F 0 "TP7" V 4500 5100 50  0000 R CNN
-F 1 "TestPoint" V 4592 5118 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 5000 50  0001 C CNN
+F 1 "tFPGA_PROGRAM" V 4592 5118 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 5000 50  0001 C CNN
 F 3 "~" H 4850 5000 50  0001 C CNN
 	1    4650 5000
 	0    -1   -1   0   
@@ -175,8 +175,8 @@ L Connector:TestPoint TP6
 U 1 1 5C5FA697
 P 4650 4700
 F 0 "TP6" V 4500 4800 50  0000 R CNN
-F 1 "TestPoint" V 4592 4818 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 4700 50  0001 C CNN
+F 1 "tFPGA_INIT" V 4592 4818 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 4700 50  0001 C CNN
 F 3 "~" H 4850 4700 50  0001 C CNN
 	1    4650 4700
 	0    -1   -1   0   
@@ -186,8 +186,8 @@ L Connector:TestPoint TP16
 U 1 1 5C5FAA3B
 P 7950 3100
 F 0 "TP16" V 7800 3200 50  0000 R CNN
-F 1 "TestPoint" V 7892 3218 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 8150 3100 50  0001 C CNN
+F 1 "tSPI_MOSI" V 7892 3218 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8150 3100 50  0001 C CNN
 F 3 "~" H 8150 3100 50  0001 C CNN
 	1    7950 3100
 	0    -1   -1   0   
@@ -197,8 +197,8 @@ L Connector:TestPoint TP15
 U 1 1 5C5FAA42
 P 7950 2800
 F 0 "TP15" V 7800 2900 50  0000 R CNN
-F 1 "TestPoint" V 7892 2918 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 8150 2800 50  0001 C CNN
+F 1 "tSPI_MISO" V 7892 2918 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8150 2800 50  0001 C CNN
 F 3 "~" H 8150 2800 50  0001 C CNN
 	1    7950 2800
 	0    -1   -1   0   
@@ -208,8 +208,8 @@ L Connector:TestPoint TP14
 U 1 1 5C5FAA49
 P 7950 2500
 F 0 "TP14" V 7800 2600 50  0000 R CNN
-F 1 "TestPoint" V 7892 2618 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 8150 2500 50  0001 C CNN
+F 1 "tSPI_SCK" V 7892 2618 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8150 2500 50  0001 C CNN
 F 3 "~" H 8150 2500 50  0001 C CNN
 	1    7950 2500
 	0    -1   -1   0   
@@ -219,8 +219,8 @@ L Connector:TestPoint TP13
 U 1 1 5C5FAA50
 P 7950 2200
 F 0 "TP13" V 7800 2300 50  0000 R CNN
-F 1 "TestPoint" V 7892 2318 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 8150 2200 50  0001 C CNN
+F 1 "tSPI_CS" V 7892 2318 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8150 2200 50  0001 C CNN
 F 3 "~" H 8150 2200 50  0001 C CNN
 	1    7950 2200
 	0    -1   -1   0   
@@ -230,8 +230,8 @@ L Connector:TestPoint TP20
 U 1 1 5C5FAA57
 P 7950 4750
 F 0 "TP20" V 7800 4850 50  0000 R CNN
-F 1 "TestPoint" V 7892 4868 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 8150 4750 50  0001 C CNN
+F 1 "tJTAG_TCK" V 7892 4868 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8150 4750 50  0001 C CNN
 F 3 "~" H 8150 4750 50  0001 C CNN
 	1    7950 4750
 	0    -1   -1   0   
@@ -241,8 +241,8 @@ L Connector:TestPoint TP19
 U 1 1 5C5FAA5E
 P 7950 4450
 F 0 "TP19" V 7800 4550 50  0000 R CNN
-F 1 "TestPoint" V 7892 4568 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 8150 4450 50  0001 C CNN
+F 1 "tJTAG_RST" V 7892 4568 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8150 4450 50  0001 C CNN
 F 3 "~" H 8150 4450 50  0001 C CNN
 	1    7950 4450
 	0    -1   -1   0   
@@ -252,8 +252,8 @@ L Connector:TestPoint TP18
 U 1 1 5C5FAA65
 P 7950 3950
 F 0 "TP18" V 7800 4050 50  0000 R CNN
-F 1 "TestPoint" V 7892 4068 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 8150 3950 50  0001 C CNN
+F 1 "tTXO" V 7892 4068 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8150 3950 50  0001 C CNN
 F 3 "~" H 8150 3950 50  0001 C CNN
 	1    7950 3950
 	0    -1   -1   0   
@@ -263,8 +263,8 @@ L Connector:TestPoint TP17
 U 1 1 5C5FAA6C
 P 7950 3650
 F 0 "TP17" V 7800 3750 50  0000 R CNN
-F 1 "TestPoint" V 7892 3768 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 8150 3650 50  0001 C CNN
+F 1 "tRXI" V 7892 3768 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8150 3650 50  0001 C CNN
 F 3 "~" H 8150 3650 50  0001 C CNN
 	1    7950 3650
 	0    -1   -1   0   
@@ -282,8 +282,8 @@ L Connector:TestPoint TP27
 U 1 1 5C5FBA2B
 P 9950 3000
 F 0 "TP27" V 9800 3100 50  0000 R CNN
-F 1 "TestPoint" V 9892 3118 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10150 3000 50  0001 C CNN
+F 1 "tBUS3" V 9892 3118 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10150 3000 50  0001 C CNN
 F 3 "~" H 10150 3000 50  0001 C CNN
 	1    9950 3000
 	0    -1   -1   0   
@@ -293,8 +293,8 @@ L Connector:TestPoint TP26
 U 1 1 5C5FBA32
 P 9950 2700
 F 0 "TP26" V 9800 2800 50  0000 R CNN
-F 1 "TestPoint" V 9892 2818 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10150 2700 50  0001 C CNN
+F 1 "tBUS2" V 9892 2818 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10150 2700 50  0001 C CNN
 F 3 "~" H 10150 2700 50  0001 C CNN
 	1    9950 2700
 	0    -1   -1   0   
@@ -304,8 +304,8 @@ L Connector:TestPoint TP25
 U 1 1 5C5FBA39
 P 9950 2400
 F 0 "TP25" V 9800 2500 50  0000 R CNN
-F 1 "TestPoint" V 9892 2518 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10150 2400 50  0001 C CNN
+F 1 "tBUS1" V 9892 2518 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10150 2400 50  0001 C CNN
 F 3 "~" H 10150 2400 50  0001 C CNN
 	1    9950 2400
 	0    -1   -1   0   
@@ -315,8 +315,8 @@ L Connector:TestPoint TP24
 U 1 1 5C5FBA40
 P 9950 2100
 F 0 "TP24" V 9800 2200 50  0000 R CNN
-F 1 "TestPoint" V 9892 2218 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10150 2100 50  0001 C CNN
+F 1 "tBUS0" V 9892 2218 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10150 2100 50  0001 C CNN
 F 3 "~" H 10150 2100 50  0001 C CNN
 	1    9950 2100
 	0    -1   -1   0   
@@ -326,8 +326,8 @@ L Connector:TestPoint TP31
 U 1 1 5C5FBA47
 P 9950 4200
 F 0 "TP31" V 9800 4300 50  0000 R CNN
-F 1 "TestPoint" V 9892 4318 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10150 4200 50  0001 C CNN
+F 1 "tBUS7" V 9892 4318 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10150 4200 50  0001 C CNN
 F 3 "~" H 10150 4200 50  0001 C CNN
 	1    9950 4200
 	0    -1   -1   0   
@@ -337,8 +337,8 @@ L Connector:TestPoint TP30
 U 1 1 5C5FBA4E
 P 9950 3900
 F 0 "TP30" V 9800 4000 50  0000 R CNN
-F 1 "TestPoint" V 9892 4018 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10150 3900 50  0001 C CNN
+F 1 "tBUS6" V 9892 4018 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10150 3900 50  0001 C CNN
 F 3 "~" H 10150 3900 50  0001 C CNN
 	1    9950 3900
 	0    -1   -1   0   
@@ -348,8 +348,8 @@ L Connector:TestPoint TP29
 U 1 1 5C5FBA55
 P 9950 3600
 F 0 "TP29" V 9800 3700 50  0000 R CNN
-F 1 "TestPoint" V 9892 3718 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10150 3600 50  0001 C CNN
+F 1 "tBUS5" V 9892 3718 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10150 3600 50  0001 C CNN
 F 3 "~" H 10150 3600 50  0001 C CNN
 	1    9950 3600
 	0    -1   -1   0   
@@ -359,8 +359,8 @@ L Connector:TestPoint TP28
 U 1 1 5C5FBA5C
 P 9950 3300
 F 0 "TP28" V 9800 3400 50  0000 R CNN
-F 1 "TestPoint" V 9892 3418 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 10150 3300 50  0001 C CNN
+F 1 "tBUS4" V 9892 3418 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10150 3300 50  0001 C CNN
 F 3 "~" H 10150 3300 50  0001 C CNN
 	1    9950 3300
 	0    -1   -1   0   
@@ -479,8 +479,8 @@ L Connector:TestPoint TP12
 U 1 1 5C60CD6F
 P 4650 2500
 F 0 "TP12" V 4500 2600 50  0000 R CNN
-F 1 "TestPoint" V 4592 2618 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 2500 50  0001 C CNN
+F 1 "t5V" V 4592 2618 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 2500 50  0001 C CNN
 F 3 "~" H 4850 2500 50  0001 C CNN
 	1    4650 2500
 	0    -1   -1   0   
@@ -517,8 +517,8 @@ L Connector:TestPoint TP22
 U 1 1 5C6117CB
 P 7950 5350
 F 0 "TP22" V 7800 5450 50  0000 R CNN
-F 1 "TestPoint" V 7892 5468 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 8150 5350 50  0001 C CNN
+F 1 "tJTAG_TDO" V 7892 5468 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8150 5350 50  0001 C CNN
 F 3 "~" H 8150 5350 50  0001 C CNN
 	1    7950 5350
 	0    -1   -1   0   
@@ -528,8 +528,8 @@ L Connector:TestPoint TP21
 U 1 1 5C6117D2
 P 7950 5050
 F 0 "TP21" V 7800 5150 50  0000 R CNN
-F 1 "TestPoint" V 7892 5168 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 8150 5050 50  0001 C CNN
+F 1 "tJTAG_TMS" V 7892 5168 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8150 5050 50  0001 C CNN
 F 3 "~" H 8150 5050 50  0001 C CNN
 	1    7950 5050
 	0    -1   -1   0   
@@ -539,8 +539,8 @@ L Connector:TestPoint TP23
 U 1 1 5C612313
 P 7950 5650
 F 0 "TP23" V 7800 5750 50  0000 R CNN
-F 1 "TestPoint" V 7892 5768 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 8150 5650 50  0001 C CNN
+F 1 "tJTAG_TDI" V 7892 5768 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8150 5650 50  0001 C CNN
 F 3 "~" H 8150 5650 50  0001 C CNN
 	1    7950 5650
 	0    -1   -1   0   
@@ -550,8 +550,8 @@ L Connector:TestPoint TP1
 U 1 1 5C61F470
 P 4650 1950
 F 0 "TP1" V 4500 2050 50  0000 R CNN
-F 1 "TestPoint" V 4592 2068 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 1950 50  0001 C CNN
+F 1 "tGND" V 4592 2068 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 1950 50  0001 C CNN
 F 3 "~" H 4850 1950 50  0001 C CNN
 	1    4650 1950
 	0    -1   -1   0   
@@ -588,8 +588,8 @@ L Connector:TestPoint TP11
 U 1 1 5C624DB7
 P 4650 6200
 F 0 "TP11" V 4500 6300 50  0000 R CNN
-F 1 "TestPoint" V 4592 6318 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 6200 50  0001 C CNN
+F 1 "tFPGA_M2" V 4592 6318 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 6200 50  0001 C CNN
 F 3 "~" H 4850 6200 50  0001 C CNN
 	1    4650 6200
 	0    -1   -1   0   
@@ -599,8 +599,8 @@ L Connector:TestPoint TP10
 U 1 1 5C624DBE
 P 4650 5900
 F 0 "TP10" V 4500 6000 50  0000 R CNN
-F 1 "TestPoint" V 4592 6018 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4850 5900 50  0001 C CNN
+F 1 "tFPGA_M1" V 4592 6018 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4850 5900 50  0001 C CNN
 F 3 "~" H 4850 5900 50  0001 C CNN
 	1    4650 5900
 	0    -1   -1   0   
